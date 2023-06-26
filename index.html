@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="style.css">
+<nav class="main-nav">
+
+    <ul class="nav" style="font-size: 40px;">
+      <li class="name">Portfolio</li>
+      <li><a href="portfolio.html">Home</a></li>
+      <li><a href="project.html">Projects</a></li>
+    </ul>
+  </nav>
+
+<header>
+  <img src="image/gradpic.jpg" alt="James' Profile Picture" class="profile-image">
+  <h1 class="tag name">James Patrick B. Pingol  </h1>
+  <p class="tag from">BS Information Technology</p>
+  <p class="tag location"> <i class="fas fa-map-marker-alt"> </i>  Tartaria, Silang Cavite, Philippines </p>
+</header>
+
+<main class="flex">
+  <div class="card">
+    <h2><span class="bottom-border">About Me</span></h2>
+
+    <p class="text">Currently pursuing a Bachelor's degree in Information
+        Technology with a focus on web development at City
+        College of Tagaytay. Throughout my academic journey, I have consistently demonstrated strong technical aptitude and problem solving skills. I have excelled in coursework covering programming languages and database management. I am deeply passionate about leveraging technology to tackle complex challenges and enhance user experiences
+        .</p>
+    
+
+  </div> 
+
+  <div class="card">
+    <h2><span class="bottom-border">Goals</span></h2>
+    <p class="text">To secure a challenging internship or entry-level position in the field of Information Technology, 
+        where I can apply and further develop my skills, gain hands-on experience in Web development, and contribute to innovative projects. As a diligent and motivated BSIT student, I aim to collaborate with dynamic team, contribute to success or organizations,
+        and continue learning and growing in the ever-evolving IT industry.
+    </p>
+    <ul class="skills"> 
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Bootstrap</li>
+     
+    </ul>
+
+  </div> 
+
+</main>
+
+
+
+
+
+
+    <footer >
+        <p >Contact Me:</p>
+        <ul>
+            <li><a href="#" class="social gmail" id="email" onclick="showUsername()">jmspngl@gmail.com</a></li>
+            <li ><a href="https://facebook.com/jamespatrickp" target="_blank" class="social facebook">Facebook</a></li>
+          <li><a href="https://twitter.com/jmsptrckpngl" target="_blank" class="social twitter">Twitter</a></li>
+          <!-- <li><a href="https://www.linkedin.com/in/zaid-khan-9a4b964b/" target="_blank" class="social linkedin">LinkedIn</a></li> -->
+          <li><a href="https://github.com/JamesPatrickPingol" target="_blank" class="social github">Github</a></li>
+        </ul>
+       
+      </footer>
+      <script>
+        function showUsername() {
+            var email = document.getElementById("email").innerText;
+            // var username = email.split("@")[0];
+            alert("Email me: " + email);
+        }
+    </script>
